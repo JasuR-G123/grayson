@@ -1,0 +1,128 @@
+.custom {
+    padding: 50px 0px;
+
+}
+
+.custom__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.custom__desc-title {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 67px;
+}
+
+.custom__desc-text {
+    max-width: 496px;
+    width: 100%;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color: #666666;
+}
+
+.custom__card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 255px;
+    width: 100%;
+    gap: 44px;
+
+
+}
+
+.custom__cards-card-img {
+    position: relative;
+    height: 340px;
+    overflow: hidden;
+}
+
+.custom__cards-card-img-model {
+    width: 100%;
+
+}
+
+.custom__cards-card-img-add {
+    position: absolute;
+    bottom: -150%;
+    transition: 0.3s;
+    z-index: -1;
+    left: 0;
+    width: 100%;
+    padding: 16px 20px;
+    background: #000000B2;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom__cards-card-img-add-cart {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.custom__cards-card-img-add-like {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.custom__cards-card:hover .custom__cards-card-img-add {
+    bottom: 0;
+    z-index: 0;
+
+}
+
+.custom__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 69px;
+}
+
+.custom__cards-card-desc {
+    display: flex;
+    margin-top: 43px;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.custom__cards-card-desc-price-discount {
+    color: #666666;
+    text-decoration: line-through;
+}
+
+.custom__cards-card-img-info {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px 18px;
+    background: #4b484b;
+    color: #fff;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.custom__cards-card-desc-name {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.custom__cards-card-desc-price {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
